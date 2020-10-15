@@ -1,0 +1,13 @@
+C:\L2\c-sharp1\ejercicio\holamundo\bin\Debug\netcoreapp3.1\holamundo.exe
+C:\L2\c-sharp1\ejercicio\holamundo\bin\Debug\netcoreapp3.1\holamundo.deps.json
+C:\L2\c-sharp1\ejercicio\holamundo\bin\Debug\netcoreapp3.1\holamundo.runtimeconfig.json
+C:\L2\c-sharp1\ejercicio\holamundo\bin\Debug\netcoreapp3.1\holamundo.runtimeconfig.dev.json
+C:\L2\c-sharp1\ejercicio\holamundo\bin\Debug\netcoreapp3.1\holamundo.dll
+C:\L2\c-sharp1\ejercicio\holamundo\bin\Debug\netcoreapp3.1\holamundo.pdb
+C:\L2\c-sharp1\ejercicio\holamundo\obj\Debug\netcoreapp3.1\holamundo.csprojAssemblyReference.cache
+C:\L2\c-sharp1\ejercicio\holamundo\obj\Debug\netcoreapp3.1\holamundo.AssemblyInfoInputs.cache
+C:\L2\c-sharp1\ejercicio\holamundo\obj\Debug\netcoreapp3.1\holamundo.AssemblyInfo.cs
+C:\L2\c-sharp1\ejercicio\holamundo\obj\Debug\netcoreapp3.1\holamundo.csproj.CoreCompileInputs.cache
+C:\L2\c-sharp1\ejercicio\holamundo\obj\Debug\netcoreapp3.1\holamundo.dll
+C:\L2\c-sharp1\ejercicio\holamundo\obj\Debug\netcoreapp3.1\holamundo.pdb
+C:\L2\c-sharp1\ejercicio\holamundo\obj\Debug\netcoreapp3.1\holamundo.genruntimeconfig.cache
