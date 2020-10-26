@@ -1,0 +1,13 @@
+C:\L2\c-sharp1\ejercicio\Funsiones\bin\Debug\netcoreapp3.1\Funsiones.exe
+C:\L2\c-sharp1\ejercicio\Funsiones\bin\Debug\netcoreapp3.1\Funsiones.deps.json
+C:\L2\c-sharp1\ejercicio\Funsiones\bin\Debug\netcoreapp3.1\Funsiones.runtimeconfig.json
+C:\L2\c-sharp1\ejercicio\Funsiones\bin\Debug\netcoreapp3.1\Funsiones.runtimeconfig.dev.json
+C:\L2\c-sharp1\ejercicio\Funsiones\bin\Debug\netcoreapp3.1\Funsiones.dll
+C:\L2\c-sharp1\ejercicio\Funsiones\bin\Debug\netcoreapp3.1\Funsiones.pdb
+C:\L2\c-sharp1\ejercicio\Funsiones\obj\Debug\netcoreapp3.1\Funsiones.csprojAssemblyReference.cache
+C:\L2\c-sharp1\ejercicio\Funsiones\obj\Debug\netcoreapp3.1\Funsiones.AssemblyInfoInputs.cache
+C:\L2\c-sharp1\ejercicio\Funsiones\obj\Debug\netcoreapp3.1\Funsiones.AssemblyInfo.cs
+C:\L2\c-sharp1\ejercicio\Funsiones\obj\Debug\netcoreapp3.1\Funsiones.csproj.CoreCompileInputs.cache
+C:\L2\c-sharp1\ejercicio\Funsiones\obj\Debug\netcoreapp3.1\Funsiones.dll
+C:\L2\c-sharp1\ejercicio\Funsiones\obj\Debug\netcoreapp3.1\Funsiones.pdb
+C:\L2\c-sharp1\ejercicio\Funsiones\obj\Debug\netcoreapp3.1\Funsiones.genruntimeconfig.cache

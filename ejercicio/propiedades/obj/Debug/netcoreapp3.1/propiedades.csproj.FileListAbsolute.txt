@@ -1,0 +1,13 @@
+C:\L2\c-sharp1\ejercicio\propiedades\bin\Debug\netcoreapp3.1\propiedades.exe
+C:\L2\c-sharp1\ejercicio\propiedades\bin\Debug\netcoreapp3.1\propiedades.deps.json
+C:\L2\c-sharp1\ejercicio\propiedades\bin\Debug\netcoreapp3.1\propiedades.runtimeconfig.json
+C:\L2\c-sharp1\ejercicio\propiedades\bin\Debug\netcoreapp3.1\propiedades.runtimeconfig.dev.json
+C:\L2\c-sharp1\ejercicio\propiedades\bin\Debug\netcoreapp3.1\propiedades.dll
+C:\L2\c-sharp1\ejercicio\propiedades\bin\Debug\netcoreapp3.1\propiedades.pdb
+C:\L2\c-sharp1\ejercicio\propiedades\obj\Debug\netcoreapp3.1\propiedades.csprojAssemblyReference.cache
+C:\L2\c-sharp1\ejercicio\propiedades\obj\Debug\netcoreapp3.1\propiedades.AssemblyInfoInputs.cache
+C:\L2\c-sharp1\ejercicio\propiedades\obj\Debug\netcoreapp3.1\propiedades.AssemblyInfo.cs
+C:\L2\c-sharp1\ejercicio\propiedades\obj\Debug\netcoreapp3.1\propiedades.csproj.CoreCompileInputs.cache
+C:\L2\c-sharp1\ejercicio\propiedades\obj\Debug\netcoreapp3.1\propiedades.dll
+C:\L2\c-sharp1\ejercicio\propiedades\obj\Debug\netcoreapp3.1\propiedades.pdb
+C:\L2\c-sharp1\ejercicio\propiedades\obj\Debug\netcoreapp3.1\propiedades.genruntimeconfig.cache

@@ -29,7 +29,7 @@ namespace inventario
          static  void  movimientoInventario ( string  codigo , int  cantidad , string  tipoMovimiento ) {
             for ( int  i  =  0 ; i  <  5 ; i ++ )
             {
-                if ( productos [ i , 0 ] ==  codigo ) {
+                if  (productos [ i , 0 ] ==  codigo ) {
                     if ( tipoMovimiento  ==  " + " ) {
                         productos [ i , 2 ] = ( Int32 . Parse ( productos [ i , 2 ]) +  cantidad ). ToString ();
                     } else {
@@ -53,7 +53,7 @@ namespace inventario
             Console.WriteLine("Ingreso la cantidad del producto");
             cantidad = Console.ReadLine();
 
-            movimientoInventario(codigo, Int32 . Parse(cantidad), "+");
+            movimientoInventario(codigo, Int32.Parse(cantidad), "+");
 
         }      
         static void Main(string[] args)
