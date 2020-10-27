@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\L2\\c-sharp1\\ejercicio\\1.inventario\\inventario.csproj",
-      "projectName": "inventario",
-      "projectPath": "C:\\L2\\c-sharp1\\ejercicio\\1.inventario\\inventario.csproj",
+      "projectUniqueName": "C:\\L2\\c-sharp1\\ejercicio\\listado\\listado.csproj",
+      "projectName": "listado",
+      "projectPath": "C:\\L2\\c-sharp1\\ejercicio\\listado\\listado.csproj",
       "packagesPath": "C:\\Users\\Úsuario\\.nuget\\packages\\",
-      "outputPath": "C:\\L2\\c-sharp1\\ejercicio\\1.inventario\\obj\\",
+      "outputPath": "C:\\L2\\c-sharp1\\ejercicio\\listado\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Úsuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

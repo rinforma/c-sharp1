@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mRDKMtCl/eTPC62iXwv4atCNgqfPeasv7q030xpfyAICtPeU3TxzxpMyqiptA+M/o2n9v4th60ZzTE6CFEx/+w==",
+  "dgSpecHash": "ypeJp3AbELWjMivMImvWnUfql+SZgk1Mhb8PuZjYnx+wq9ANxW3uTUhC0i3Pl5PUXq6SKNl49z6Xiq8wYdrSNA==",
   "success": true,
-  "projectFilePath": "C:\\L2\\c-sharp1\\ejercicio\\inventario\\inventario.csproj",
+  "projectFilePath": "C:\\L2\\c-sharp1\\ejercicio\\1.inventario\\inventario.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

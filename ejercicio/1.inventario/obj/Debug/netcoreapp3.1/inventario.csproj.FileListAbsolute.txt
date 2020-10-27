@@ -11,3 +11,16 @@ C:\L2\c-sharp1\ejercicio\inventario\obj\Debug\netcoreapp3.1\inventario.csproj.Co
 C:\L2\c-sharp1\ejercicio\inventario\obj\Debug\netcoreapp3.1\inventario.dll
 C:\L2\c-sharp1\ejercicio\inventario\obj\Debug\netcoreapp3.1\inventario.pdb
 C:\L2\c-sharp1\ejercicio\inventario\obj\Debug\netcoreapp3.1\inventario.genruntimeconfig.cache
+C:\L2\c-sharp1\ejercicio\1.inventario\bin\Debug\netcoreapp3.1\inventario.exe
+C:\L2\c-sharp1\ejercicio\1.inventario\bin\Debug\netcoreapp3.1\inventario.deps.json
+C:\L2\c-sharp1\ejercicio\1.inventario\bin\Debug\netcoreapp3.1\inventario.runtimeconfig.json
+C:\L2\c-sharp1\ejercicio\1.inventario\bin\Debug\netcoreapp3.1\inventario.runtimeconfig.dev.json
+C:\L2\c-sharp1\ejercicio\1.inventario\bin\Debug\netcoreapp3.1\inventario.dll
+C:\L2\c-sharp1\ejercicio\1.inventario\bin\Debug\netcoreapp3.1\inventario.pdb
+C:\L2\c-sharp1\ejercicio\1.inventario\obj\Debug\netcoreapp3.1\inventario.csprojAssemblyReference.cache
+C:\L2\c-sharp1\ejercicio\1.inventario\obj\Debug\netcoreapp3.1\inventario.AssemblyInfoInputs.cache
+C:\L2\c-sharp1\ejercicio\1.inventario\obj\Debug\netcoreapp3.1\inventario.AssemblyInfo.cs
+C:\L2\c-sharp1\ejercicio\1.inventario\obj\Debug\netcoreapp3.1\inventario.csproj.CoreCompileInputs.cache
+C:\L2\c-sharp1\ejercicio\1.inventario\obj\Debug\netcoreapp3.1\inventario.dll
+C:\L2\c-sharp1\ejercicio\1.inventario\obj\Debug\netcoreapp3.1\inventario.pdb
+C:\L2\c-sharp1\ejercicio\1.inventario\obj\Debug\netcoreapp3.1\inventario.genruntimeconfig.cache
