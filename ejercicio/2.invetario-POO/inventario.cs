@@ -59,12 +59,28 @@ public Inventario()
         Console.WriteLine("*********************************");
         Console.Write("Ingrese el codigo del producto:");
         codigo = Console.ReadLine();
-        Console.WriteLine("Ingreso la cantidad del producto");
+        Console.Write("Ingreso la cantidad del producto");
         cantidad = Console.ReadLine();
 
         movimientoInventario(codigo, Int32.Parse(cantidad), "+");
 
     }   
+    public void salidaInventario() {
+        string codigo = "";
+        string cantidad = "";
+
+        Console.Clear();
+        Console.WriteLine();
+
+        Console.WriteLine("Salida de Productos del Inventario");
+        Console.WriteLine("************");
+        Console.Write("Ingrese el codigo del producto: ");
+        codigo = Console.ReadLine();
+        Console.Write("Ingrese la cantidad del producto: ");
+        cantidad = Console.ReadLine();
+
+        movimientoInventario(codigo, Int32.Parse(cantidad), "-");
+    }
         public void ajusteNegativoInventario() {
         string codigo = "";
         string cantidad = "";
@@ -97,21 +113,4 @@ public Inventario()
 
         movimientoInventario(codigo, Int32.Parse(cantidad), "+");
     }
-        public void salidaInventario() {
-        string codigo = "";
-        string cantidad = "";
-
-        Console.Clear();
-        Console.WriteLine();
-
-        Console.WriteLine("Salida de Productos del Inventario");
-        Console.WriteLine("************");
-        Console.Write("Ingrese el codigo del producto: ");
-        codigo = Console.ReadLine();
-        Console.Write("Ingrese la cantidad del producto: ");
-        cantidad = Console.ReadLine();
-
-        movimientoInventario(codigo, Int32.Parse(cantidad), "-");
-    }
-
 }
