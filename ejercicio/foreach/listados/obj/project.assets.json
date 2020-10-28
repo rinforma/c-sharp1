@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\L2\\c-sharp1\\ejercicio\\listado\\listado.csproj",
-      "projectName": "listado",
-      "projectPath": "C:\\L2\\c-sharp1\\ejercicio\\listado\\listado.csproj",
+      "projectUniqueName": "C:\\L2\\c-sharp1\\ejercicio\\foreach\\listados\\listados.csproj",
+      "projectName": "listados",
+      "projectPath": "C:\\L2\\c-sharp1\\ejercicio\\foreach\\listados\\listados.csproj",
       "packagesPath": "C:\\Users\\Úsuario\\.nuget\\packages\\",
-      "outputPath": "C:\\L2\\c-sharp1\\ejercicio\\listado\\obj\\",
+      "outputPath": "C:\\L2\\c-sharp1\\ejercicio\\foreach\\listados\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Úsuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("listado")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("listados")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("listado")]
-[assembly: System.Reflection.AssemblyTitleAttribute("listado")]
+[assembly: System.Reflection.AssemblyProductAttribute("listados")]
+[assembly: System.Reflection.AssemblyTitleAttribute("listados")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

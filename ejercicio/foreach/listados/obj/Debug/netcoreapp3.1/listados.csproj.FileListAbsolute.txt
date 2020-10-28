@@ -1,0 +1,13 @@
+C:\L2\c-sharp1\ejercicio\foreach\listados\bin\Debug\netcoreapp3.1\listados.exe
+C:\L2\c-sharp1\ejercicio\foreach\listados\bin\Debug\netcoreapp3.1\listados.deps.json
+C:\L2\c-sharp1\ejercicio\foreach\listados\bin\Debug\netcoreapp3.1\listados.runtimeconfig.json
+C:\L2\c-sharp1\ejercicio\foreach\listados\bin\Debug\netcoreapp3.1\listados.runtimeconfig.dev.json
+C:\L2\c-sharp1\ejercicio\foreach\listados\bin\Debug\netcoreapp3.1\listados.dll
+C:\L2\c-sharp1\ejercicio\foreach\listados\bin\Debug\netcoreapp3.1\listados.pdb
+C:\L2\c-sharp1\ejercicio\foreach\listados\obj\Debug\netcoreapp3.1\listados.csprojAssemblyReference.cache
+C:\L2\c-sharp1\ejercicio\foreach\listados\obj\Debug\netcoreapp3.1\listados.AssemblyInfoInputs.cache
+C:\L2\c-sharp1\ejercicio\foreach\listados\obj\Debug\netcoreapp3.1\listados.AssemblyInfo.cs
+C:\L2\c-sharp1\ejercicio\foreach\listados\obj\Debug\netcoreapp3.1\listados.csproj.CoreCompileInputs.cache
+C:\L2\c-sharp1\ejercicio\foreach\listados\obj\Debug\netcoreapp3.1\listados.dll
+C:\L2\c-sharp1\ejercicio\foreach\listados\obj\Debug\netcoreapp3.1\listados.pdb
+C:\L2\c-sharp1\ejercicio\foreach\listados\obj\Debug\netcoreapp3.1\listados.genruntimeconfig.cache
