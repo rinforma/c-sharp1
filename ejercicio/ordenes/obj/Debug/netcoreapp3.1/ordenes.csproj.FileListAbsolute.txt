@@ -1,0 +1,13 @@
+C:\L2\c-sharp1\ejercicio\ordenes\bin\Debug\netcoreapp3.1\ordenes.exe
+C:\L2\c-sharp1\ejercicio\ordenes\bin\Debug\netcoreapp3.1\ordenes.deps.json
+C:\L2\c-sharp1\ejercicio\ordenes\bin\Debug\netcoreapp3.1\ordenes.runtimeconfig.json
+C:\L2\c-sharp1\ejercicio\ordenes\bin\Debug\netcoreapp3.1\ordenes.runtimeconfig.dev.json
+C:\L2\c-sharp1\ejercicio\ordenes\bin\Debug\netcoreapp3.1\ordenes.dll
+C:\L2\c-sharp1\ejercicio\ordenes\bin\Debug\netcoreapp3.1\ordenes.pdb
+C:\L2\c-sharp1\ejercicio\ordenes\obj\Debug\netcoreapp3.1\ordenes.csprojAssemblyReference.cache
+C:\L2\c-sharp1\ejercicio\ordenes\obj\Debug\netcoreapp3.1\ordenes.AssemblyInfoInputs.cache
+C:\L2\c-sharp1\ejercicio\ordenes\obj\Debug\netcoreapp3.1\ordenes.AssemblyInfo.cs
+C:\L2\c-sharp1\ejercicio\ordenes\obj\Debug\netcoreapp3.1\ordenes.csproj.CoreCompileInputs.cache
+C:\L2\c-sharp1\ejercicio\ordenes\obj\Debug\netcoreapp3.1\ordenes.dll
+C:\L2\c-sharp1\ejercicio\ordenes\obj\Debug\netcoreapp3.1\ordenes.pdb
+C:\L2\c-sharp1\ejercicio\ordenes\obj\Debug\netcoreapp3.1\ordenes.genruntimeconfig.cache
