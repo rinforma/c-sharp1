@@ -6,7 +6,7 @@ public class Producto
 
     public double Precio { get; set; }
 
-    public Procduto(int codigo, string descripcion, double precio)
+    public Producto(int codigo, string descripcion, double precio)
     {
         Codigo = codigo;
         Descripcion = descripcion;

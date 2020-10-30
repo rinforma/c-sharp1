@@ -13,7 +13,7 @@ public class OrdenDetalle
     {
         Codigo = codigo;
         Cantidad = cantidad;
-        producto = producto;
+        Producto = producto;
         Precio = Producto.Precio;
     }
 
