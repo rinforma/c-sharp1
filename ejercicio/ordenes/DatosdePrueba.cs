@@ -9,7 +9,7 @@ public class DatosdePrueba
 
     public List<Vendedor>  ListadeVendedores{ get; set; }
 
-    public List<Orden> ListadeOrdenes { get; set; }
+    public List<Orden> ListaOrdenes { get; set; }
     
 
     public DatosdePrueba()
@@ -23,7 +23,7 @@ public class DatosdePrueba
         ListadeVendedores = new List<Vendedor>();
         cargarVendedores();
 
-        ListadeOrdenes = new List<Orden>();
+        ListaOrdenes = new List <Orden>();
 
 
     }
@@ -42,9 +42,11 @@ public class DatosdePrueba
     private void cargarClientes()
     {
         Clientes c1 = new Clientes(1, "Pedro", "9999999");
+        Console.WriteLine("");
         listadeClientes.Add(c1);
         Clientes c2 = new Clientes(2, "Marcos", "8888888");
-        listadeClientes.Add(c2);
+        Console.WriteLine("");
+        listadeClientes.Add(c2);    
     }
     private void cargarVendedores()
     {
@@ -112,6 +114,7 @@ public class DatosdePrueba
 
         {
             Console.WriteLine("Cliente:" + cliente.Nombre);
+            Console.WriteLine("");
         }  
         Console.WriteLine("Ingrese el Codigo del Vendedor");
         string CodigoVendedor = Console.ReadLine();
@@ -121,14 +124,14 @@ public class DatosdePrueba
            Console.WriteLine("Vendedor no encontrado");
            Console.ReadLine();
            return;
-        } else
-        {
+        } else{
             Console.WriteLine("Vendedor:" + vendedor.Nombre);
+            Console.WriteLine("");
         }
-        int nuevoCodigo = ListadeOrdenes.Count + 1; 
+        int nuevoCodigo = ListaOrdenes.Count + 1; 
 
         Orden nuevaOrden = new Orden(1, DateTime.Now,"SPS"+ nuevoCodigo, cliente, vendedor);
-        ListadeOrdenes.Add(nuevaOrden);
+        ListaOrdenes.Add(nuevaOrden);
 
         while (true)
         {
@@ -140,7 +143,7 @@ public class DatosdePrueba
             Console.WriteLine("Producto no encontrado");
            Console.ReadLine();
         }else{
-            Console.WriteLine("Producto agregado:" + producto.Descripcion + "con precio de:" + producto.Precio);
+            Console.WriteLine("Producto agregado:" + producto.Descripcion + " con precio de:" + producto.Precio);
             nuevaOrden.AgregarProducto(producto);
         }
 
@@ -150,8 +153,34 @@ public class DatosdePrueba
                     break;
             }
         }
+        Console.WriteLine("");
+        Console.WriteLine("Total de la Orde es:" + nuevaOrden.Total);
+        Console.ReadLine();
 
+    } 
+    public void ListarOrdenes()
+    {
+        Console.WriteLine("Lista de Ordenes");
+        Console.WriteLine("================");
+        Console.WriteLine(""); 
+        Console.WriteLine ( " Codigo | Fecha | Total " );
+        Console.WriteLine ( " Cliente | Vendedor " );
+        Console.WriteLine ( " ====================== " );
+        Console.WriteLine ( " " );  
+
+        foreach (var orden in ListaOrdenes)
+    {
+           Console.WriteLine(orden.Codigo + " | "  + orden.Fecha + " | " + orden.Total); 
+           Console.WriteLine(orden.Clientes.Nombre + " | "  + orden.Vendedor.Nombre ); 
+
+        foreach (var detalle in orden.ListaOrdenDetalle)   
+        {
+            Console.WriteLine("     " + detalle.Producto.Descripcion + " | " + detalle.Cantidad + " | " + detalle.Precio);
+        }
+            Console.WriteLine();
+        }
+            Console.ReadLine();
     }   
 }   
-  
+
  
