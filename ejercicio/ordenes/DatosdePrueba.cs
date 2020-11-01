@@ -155,6 +155,10 @@ public class DatosdePrueba
         Console.WriteLine("");
         Console.WriteLine("Total de la Orde es:" + nuevaOrden.Total);
         Console.ReadLine();
+        Console.WriteLine("Subtotal de la Orde es:" + nuevaOrden.Total);// se agrego para subtotal
+        Console.ReadLine();
+        Console.WriteLine("Impuesto de la Orde es:" + nuevaOrden.Impuesto);
+        Console.ReadLine();
 
     } 
     public void ListarOrdenes()
@@ -170,7 +174,7 @@ public class DatosdePrueba
         foreach (var orden in ListaOrdenes)
     {
            Console.WriteLine(orden.Codigo + " | "  + orden.Fecha + " | " + orden.Total); 
-           Console.WriteLine(orden.Clientes.Nombre + " | "  + orden.Vendedor.Nombre ); 
+           Console.WriteLine(orden.Clientes.Nombre + " | " + orden.Vendedor.Nombre ); 
 
         foreach (var detalle in orden.ListaOrdenDetalle)   
         {
