@@ -29,7 +29,7 @@ public class Orden
         OrdenDetalle  o  =  new  OrdenDetalle ( 1 , 1 , producto );
         ListaOrdenDetalle .Add(o);
         Total+= cantidad  *  producto . Precio ;
-        Subtotal +=Total * producto.Precio; // se agrego por el subtotal
+        Subtotal =Total * producto.Precio; // se agrego por el subtotal
         Impuesto = Total * 0.15  ; // se agrego por el imp
     }
 }

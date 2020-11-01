@@ -161,7 +161,7 @@ public class DatosdePrueba
         Console.ReadLine();
 
     } 
-    public void ListarOrdenes()
+    public void Listaordenes()
     {
         Console.WriteLine("Lista de Ordenes");
         Console.WriteLine("================");
