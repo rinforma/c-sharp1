@@ -13,6 +13,7 @@ public class DatosdePrueba
     
 
     public DatosdePrueba()
+   
     {
         ListadeProductos = new List<Producto>();
         cargarProductos();
@@ -24,8 +25,6 @@ public class DatosdePrueba
         cargarVendedores();
 
         ListaOrdenes = new List <Orden>();
-
-
     }
      private void cargarProductos() // en capsulamiento
     {
@@ -67,8 +66,8 @@ public class DatosdePrueba
         {
             Console.WriteLine(Producto.Codigo + " | " + Producto.Descripcion + " | " + Producto.Precio );
         }
-        Console.Read();
-    }
+        Console.ReadLine();
+    }   
         public void ListarClientes()
     {
         Console.Clear();
@@ -117,8 +116,8 @@ public class DatosdePrueba
             Console.WriteLine("");
         }  
         Console.WriteLine("Ingrese el Codigo del Vendedor");
-        string CodigoVendedor = Console.ReadLine();
-        Vendedor vendedor = ListadeVendedores.Find(V =>V.Codigo.ToString() == CodigoVendedor);
+        string codigoVendedor = Console.ReadLine();
+        Vendedor vendedor = ListadeVendedores.Find(V =>V.Codigo.ToString() ==   codigoVendedor);
         if (vendedor == null)
         {
            Console.WriteLine("Vendedor no encontrado");
@@ -130,7 +129,7 @@ public class DatosdePrueba
         }
         int nuevoCodigo = ListaOrdenes.Count + 1; 
 
-        Orden nuevaOrden = new Orden(1, DateTime.Now,"SPS"+ nuevoCodigo, cliente, vendedor);
+        Orden nuevaOrden = new Orden(nuevoCodigo, DateTime.Now,"SPS"+ nuevoCodigo, cliente, vendedor);
         ListaOrdenes.Add(nuevaOrden);
 
         while (true)

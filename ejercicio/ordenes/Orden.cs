@@ -24,7 +24,7 @@ public class Orden
     {
         int  nuevoCodigo = ListaOrdenDetalle. Count +  1 ;
         int  cantidad  =  1 ;
-        
+          
         OrdenDetalle  o  =  new  OrdenDetalle ( 1 , 1 , producto );
         ListaOrdenDetalle .Add(o);
         Total+= cantidad  *  producto . Precio ;

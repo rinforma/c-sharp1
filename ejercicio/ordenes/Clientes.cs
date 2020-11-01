@@ -7,5 +7,5 @@ public class Clientes: Persona
         Nombre = nombre;
         Telefono = telefono;
         
-    }
+    }   
 }
