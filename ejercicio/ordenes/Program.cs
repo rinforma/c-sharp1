@@ -39,7 +39,7 @@ namespace ordenes
                         datos.ListarVendedores();
                         break;
                     case "5":
-                        datos.ListarOrdenes();
+                        datos.Listaordenes();
                         break;
 
                     default:
