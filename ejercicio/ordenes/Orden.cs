@@ -6,7 +6,7 @@ public class Orden
 
     public DateTime Fecha { get; set; }
     public string  NumerodeOrden { get; set; }
-    public  Cliente  Cliente { get; set; }
+    public  Cliente Cliente { get; set; }
     public Vendedor  Vendedor { get; set; }
     public List<OrdenDetalle> ListaOrdenDetalle { get; set; }
     public double Total { get; set; }
@@ -17,7 +17,7 @@ public class Orden
         Codigo  =  codigo ;
         Fecha  =  fecha ;
         NumerodeOrden  =  numeroOrden ;
-        Cliente = Cliente;
+        Cliente = cliente;
         Vendedor  =  vendedor ;
         ListaOrdenDetalle = new List<OrdenDetalle> ();
    }

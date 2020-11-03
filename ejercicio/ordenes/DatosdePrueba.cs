@@ -5,7 +5,7 @@ public class DatosdePrueba
 {
     public List<Producto> ListadeProductos { get; set; }
 
-    public List<Cliente> listadeCliente { get; set; }
+    public List<Cliente> listadeClientes { get; set; }
 
     public List<Vendedor>  ListadeVendedores{ get; set; }
 
@@ -17,7 +17,7 @@ public class DatosdePrueba
         ListadeProductos = new List<Producto>();
         cargarProductos();
 
-        listadeCliente = new List<Cliente>();
+        listadeClientes = new List<Cliente>();
         cargarClientes();
 
         ListadeVendedores = new List<Vendedor>();
@@ -40,10 +40,10 @@ public class DatosdePrueba
     {
         Cliente c1 = new Cliente(1, "Pedro", "9999999");
         Console.WriteLine("");
-        listadeCliente.Add(c1);
+        listadeClientes.Add(c1);
         Cliente c2 = new Cliente(2, "Marcos", "8888888");
         Console.WriteLine("");
-        listadeCliente.Add(c2);    
+        listadeClientes.Add(c2);    
     }
     private void cargarVendedores()
     {
@@ -72,7 +72,7 @@ public class DatosdePrueba
         Console.WriteLine("=================");
         Console.WriteLine("");
 
-        foreach (var Cliente in listadeCliente)
+        foreach (var Cliente in listadeClientes)
         {
             Console.WriteLine(Cliente.Codigo + " | " + Cliente.Nombre + " | " + Cliente.Telefono );
         }
@@ -100,7 +100,7 @@ public class DatosdePrueba
         Console.WriteLine("Ingrese el Codigo del Cliente");
         string codigoCliete = Console.ReadLine();
       
-        Cliente cliente = listadeCliente.Find(C =>C.Codigo.ToString() == codigoCliete);
+        Cliente cliente = listadeClientes.Find(C =>C.Codigo.ToString() == codigoCliete);
         if (cliente == null)
         {
             Console.WriteLine("Cliente no encontrado");
