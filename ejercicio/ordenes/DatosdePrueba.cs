@@ -5,7 +5,7 @@ public class DatosdePrueba
 {
     public List<Producto> ListadeProductos { get; set; }
 
-    public List<Clientes> listadeClientes { get; set; }
+    public List<Cliente> listadeCliente { get; set; }
 
     public List<Vendedor>  ListadeVendedores{ get; set; }
 
@@ -17,7 +17,7 @@ public class DatosdePrueba
         ListadeProductos = new List<Producto>();
         cargarProductos();
 
-        listadeClientes = new List<Clientes>();
+        listadeCliente = new List<Cliente>();
         cargarClientes();
 
         ListadeVendedores = new List<Vendedor>();
@@ -38,12 +38,12 @@ public class DatosdePrueba
     }
     private void cargarClientes()
     {
-        Clientes c1 = new Clientes(1, "Pedro", "9999999");
+        Cliente c1 = new Cliente(1, "Pedro", "9999999");
         Console.WriteLine("");
-        listadeClientes.Add(c1);
-        Clientes c2 = new Clientes(2, "Marcos", "8888888");
+        listadeCliente.Add(c1);
+        Cliente c2 = new Cliente(2, "Marcos", "8888888");
         Console.WriteLine("");
-        listadeClientes.Add(c2);    
+        listadeCliente.Add(c2);    
     }
     private void cargarVendedores()
     {
@@ -72,7 +72,7 @@ public class DatosdePrueba
         Console.WriteLine("=================");
         Console.WriteLine("");
 
-        foreach (var Cliente in listadeClientes)
+        foreach (var Cliente in listadeCliente)
         {
             Console.WriteLine(Cliente.Codigo + " | " + Cliente.Nombre + " | " + Cliente.Telefono );
         }
@@ -100,7 +100,7 @@ public class DatosdePrueba
         Console.WriteLine("Ingrese el Codigo del Cliente");
         string codigoCliete = Console.ReadLine();
       
-        Clientes cliente = listadeClientes.Find(C =>C.Codigo.ToString() == codigoCliete);
+        Cliente cliente = listadeCliente.Find(C =>C.Codigo.ToString() == codigoCliete);
         if (cliente == null)
         {
             Console.WriteLine("Cliente no encontrado");
@@ -167,7 +167,7 @@ public class DatosdePrueba
         foreach (var orden in ListaOrdenes)
     {
            Console.WriteLine(orden.Codigo + " | "  + orden.Fecha + " | " + orden.Total); 
-           Console.WriteLine(orden.Clientes.Nombre + " | " + orden.Vendedor.Nombre ); 
+           Console.WriteLine(orden.Cliente.Nombre + " | " + orden.Vendedor.Nombre ); 
         foreach (var detalle in orden.ListaOrdenDetalle)   
         {
             Console.WriteLine("     " + detalle.Producto.Descripcion + " | " + detalle.Cantidad + " | " + detalle.Precio);

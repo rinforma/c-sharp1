@@ -1,7 +1,7 @@
-public class Clientes: Persona
+public class Cliente: Persona
 {
     public double Saldo { get; set; }
-    public Clientes(int codigo,string nombre, string telefono)
+    public Cliente(int codigo,string nombre, string telefono)
     {
         Codigo = codigo;
         Nombre = nombre;
