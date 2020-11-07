@@ -1,0 +1,13 @@
+C:\L2\c-sharp1\ejercicio\proyectof\bin\Debug\netcoreapp3.1\proyectof.exe
+C:\L2\c-sharp1\ejercicio\proyectof\bin\Debug\netcoreapp3.1\proyectof.deps.json
+C:\L2\c-sharp1\ejercicio\proyectof\bin\Debug\netcoreapp3.1\proyectof.runtimeconfig.json
+C:\L2\c-sharp1\ejercicio\proyectof\bin\Debug\netcoreapp3.1\proyectof.runtimeconfig.dev.json
+C:\L2\c-sharp1\ejercicio\proyectof\bin\Debug\netcoreapp3.1\proyectof.dll
+C:\L2\c-sharp1\ejercicio\proyectof\bin\Debug\netcoreapp3.1\proyectof.pdb
+C:\L2\c-sharp1\ejercicio\proyectof\obj\Debug\netcoreapp3.1\proyectof.csprojAssemblyReference.cache
+C:\L2\c-sharp1\ejercicio\proyectof\obj\Debug\netcoreapp3.1\proyectof.AssemblyInfoInputs.cache
+C:\L2\c-sharp1\ejercicio\proyectof\obj\Debug\netcoreapp3.1\proyectof.AssemblyInfo.cs
+C:\L2\c-sharp1\ejercicio\proyectof\obj\Debug\netcoreapp3.1\proyectof.csproj.CoreCompileInputs.cache
+C:\L2\c-sharp1\ejercicio\proyectof\obj\Debug\netcoreapp3.1\proyectof.dll
+C:\L2\c-sharp1\ejercicio\proyectof\obj\Debug\netcoreapp3.1\proyectof.pdb
+C:\L2\c-sharp1\ejercicio\proyectof\obj\Debug\netcoreapp3.1\proyectof.genruntimeconfig.cache
