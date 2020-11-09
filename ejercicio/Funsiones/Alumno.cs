@@ -10,9 +10,9 @@ public class Alumno
     public bool  Activo { get; set; }
 
     // constructor
-    public Alumno(int Id, string primerNombre, string segundoNombre)
+    public Alumno(int id, string primerNombre, string segundoNombre)
     {
-        Id= Id;
+        Id= id;
         PrimerNombre = primerNombre;
         SegundoNombre = segundoNombre;
         Activo = true;  
