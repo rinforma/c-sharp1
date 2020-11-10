@@ -24,7 +24,7 @@ namespace proyectof
                 Console.WriteLine( "0. Avandonar Facturacion"); 
                 opcion = Console.ReadLine();
 
-                switch (opcion = "")
+                switch (opcion)
                 {
                     case "1":
                         datos.ListarProductos();

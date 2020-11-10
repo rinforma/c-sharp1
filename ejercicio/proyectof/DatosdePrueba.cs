@@ -24,15 +24,15 @@ public class DatosdePrueba
      {
          Producto P1 = new Producto(1,"Azucar",210);
          ListaProductos.Add(P1);
-         Producto P2 = new Producto(2,"Harina",210);
+         Producto P2 = new Producto(2,"Harina",150);
          ListaProductos.Add(P2);
-         Producto P3 = new Producto(3,"Manteca",210);
+         Producto P3 = new Producto(3,"Manteca",100);
          ListaProductos.Add(P3);
-         Producto P4 = new Producto(4,"Aceite",210);
+         Producto P4 = new Producto(4,"Aceite",90);
          ListaProductos.Add(P4);
-         Producto P5 = new Producto(5,"Carnes",210);
+         Producto P5 = new Producto(5,"Carnes",90);
          ListaProductos.Add(P5);
-         Producto P6 = new Producto(1,"Leche",210);
+         Producto P6 = new Producto(6,"Leche",45);
          ListaProductos.Add(P6);
 
     } 
@@ -152,7 +152,7 @@ public class DatosdePrueba
             }
         }
         Console.WriteLine("");
-        Console.WriteLine("Total de la Factura es:" + nuevaFactura);
+        Console.WriteLine("Total de la Factura es:" + nuevaFactura.Total);
         Console.ReadLine();
 
         Console.WriteLine("Subtotal de su  Factura es:" + nuevaFactura.Total);
