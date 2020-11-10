@@ -24,15 +24,15 @@ public class DatosdePrueba
      {
          Producto P1 = new Producto(1,"Azucar",210);
          ListaProductos.Add(P1);
-         Producto P2 = new Producto(2,"Harina",150);
+         Producto P2 = new Producto(2,"Harina",500);
          ListaProductos.Add(P2);
          Producto P3 = new Producto(3,"Manteca",100);
          ListaProductos.Add(P3);
-         Producto P4 = new Producto(4,"Aceite",90);
+         Producto P4 = new Producto(4,"Aceite",400);
          ListaProductos.Add(P4);
-         Producto P5 = new Producto(5,"Carnes",90);
+         Producto P5 = new Producto(5,"Carnes",600);
          ListaProductos.Add(P5);
-         Producto P6 = new Producto(6,"Leche",45);
+         Producto P6 = new Producto(6,"Leche",700);
          ListaProductos.Add(P6);
 
     } 
@@ -42,7 +42,7 @@ public class DatosdePrueba
         ListadeAcreedores.Add(a1);
         Acreedor a2= new Acreedor(2,"Bodega HF","1588");
         ListadeAcreedores.Add(a2);
-        Acreedor a3= new Acreedor(3,"Insa","1699");
+        Acreedor a3= new Acreedor(3,"Abarroteria","1699");
         ListadeAcreedores.Add(a3);
     } 
     private void cargarProveedores()
