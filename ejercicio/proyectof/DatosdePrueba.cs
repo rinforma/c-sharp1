@@ -154,11 +154,11 @@ public class DatosdePrueba
         Console.WriteLine("");
         Console.WriteLine("Total de la Factura es:" + nuevaFactura.Total);
         Console.ReadLine();
-
         Console.WriteLine("Subtotal de su  Factura es:" + nuevaFactura.Total);
          Console.ReadLine();
         Console.WriteLine("Impuesto de la Factura es:" + nuevaFactura.Impuesto);
         Console.ReadLine();
+        
     } 
 
      public  void ListarFacturas()

@@ -31,5 +31,6 @@ public class Factura
         Total += cantidad * producto.Precio;
         Subtotal = Total * producto.Precio;
         Impuesto = Total * 0.15;
+        
     }
 }
