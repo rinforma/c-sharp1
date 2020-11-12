@@ -6,6 +6,8 @@ public class DatosdePrueba
     public List<Acreedor> ListadeAcreedores{ get; set; }
     public List<Proveedor> ListadeProveedores { get; set; }
     public List<Factura> ListaFacturas { get; set; }
+
+
     public DatosdePrueba()
     {
         ListaProductos = new List<Producto>();
@@ -18,6 +20,7 @@ public class DatosdePrueba
         cargarProveedores();
 
         ListaFacturas = new List<Factura>();
+
     }
      private void cargarProductos()
      {
@@ -181,5 +184,5 @@ public class DatosdePrueba
             Console.WriteLine();
         }
             Console.ReadLine();
-    }
+    } 
 }
