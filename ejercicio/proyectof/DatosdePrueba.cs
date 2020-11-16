@@ -190,8 +190,8 @@ public class DatosdePrueba
         Console.WriteLine("Lista de Reporte");
         Console.WriteLine("================");
         Console.WriteLine(""); 
-        Console.WriteLine ( " Codigo  |  Fecha  | Total | Acreedor | Proveedor | Impuesto | Subtotal " );
-
+        Console.WriteLine ( "Codigo |  Fecha   |    Total   |    Acreedor  |   Proveedor  |   Impuesto  |   Subtotal " );
+        Console.WriteLine("==========================================================================================");
         foreach (var Reporte in ListaFacturas)
         {
            Console.WriteLine(Reporte.Codigo + " | " + Reporte.Fecha + " | " + Reporte.Total + " | " + Reporte.Acreedor + " | " + Reporte.Proveedor + " | " + Reporte.Impuesto + " | " + Reporte.Subtotal);  
