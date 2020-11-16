@@ -7,7 +7,6 @@ public class DatosdePrueba
     public List<Proveedor> ListadeProveedores { get; set; }
     public List<Factura> ListaFacturas { get; set; }
 
-
     public DatosdePrueba()
     {
         ListaProductos = new List<Producto>();
@@ -157,10 +156,11 @@ public class DatosdePrueba
         Console.WriteLine("Total de la Factura es:" + nuevaFactura.Total);
         Console.ReadLine();
         Console.WriteLine("Subtotal de su  Factura es:" + nuevaFactura.Total);
-         Console.ReadLine();
+        Console.ReadLine();
         Console.WriteLine("Impuesto de la Factura es:" + nuevaFactura.Impuesto);
         Console.ReadLine();
-        
+        Console.WriteLine("Reporte de la Factura es:" + nuevaFactura.Reporte);
+        Console.ReadLine();    
     } 
 
      public  void ListarFacturas()
@@ -205,5 +205,4 @@ public class DatosdePrueba
            Console.WriteLine();  
         }
     }
-
 }

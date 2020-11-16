@@ -12,7 +12,7 @@ public class Factura
     public double Total { get; set; }
     public double Subtotal { get; set; }
     public double Impuesto { get; set; }
-    public double Reporte { get; set; }
+    public double Reporte  { get; set; }
     public Factura(int codigo, DateTime fecha, string numerodeFactura, Acreedor acreedor, Proveedor proveedor)
     {
       Codigo = codigo;
@@ -30,6 +30,6 @@ public class Factura
         ListaFacturaDetalle.Add(o);
         Total += cantidad * producto.Precio;
         Subtotal = Total * producto.Precio;
-        Impuesto = Total * 0.15; 
+        Impuesto = Total * 0.15;  
     }
 }
