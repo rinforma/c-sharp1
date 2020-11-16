@@ -21,6 +21,7 @@ namespace proyectof
                 Console.WriteLine( "3. Lista de Acreedores");
                 Console.WriteLine( "4. Lista de Proveedores");
                 Console.WriteLine( "5. Lista de Facturas");
+                 Console.WriteLine("6. Listar Reporte");
                 Console.WriteLine( "0. Avandonar Facturacion"); 
                 opcion = Console.ReadLine();
 
@@ -41,6 +42,9 @@ namespace proyectof
                     case "5":
                         datos.ListarFacturas();
                         break;
+                    case "6":
+                        datos.ListarReporte();
+                        break;  
                     default:
                     break;
                 }  

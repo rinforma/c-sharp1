@@ -185,4 +185,25 @@ public class DatosdePrueba
         }
             Console.ReadLine();
     } 
+    public void ListarReporte()
+    {
+        Console.WriteLine("Lista de Facturas");
+        Console.WriteLine("================");
+        Console.WriteLine(""); 
+        Console.WriteLine ( " Codigo  |  Fecha  |  Total de factura " );
+        Console.WriteLine ( " Acreedor |  Proveedor " );
+        Console.WriteLine ( " ====================== " );
+        Console.WriteLine ( " " );  
+        foreach (var Reporte in ListaFacturas)
+        {
+            Console.WriteLine(Reporte.Codigo + " | "  + Reporte.Fecha + " | " + Reporte.Total); 
+            Console.WriteLine(Reporte.Acreedor.Nombre + " | " + Reporte.Proveedor.Nombre ); 
+        foreach (var detalle in Reporte.ListaFacturaDetalle)
+        {
+           Console.WriteLine("     " + detalle.Producto.Descripcion + " | " + detalle.Cantidad + " | " + detalle.Precio); 
+        }
+           Console.WriteLine();  
+        }
+    }
+
 }
