@@ -196,6 +196,6 @@ public class DatosdePrueba
         {
            Console.WriteLine(Reporte.Codigo + " | " + Reporte.Fecha + " | " + Reporte.Total + " | " + Reporte.Acreedor);  
         }
-        
+        Console.ReadLine();
     }
 }
