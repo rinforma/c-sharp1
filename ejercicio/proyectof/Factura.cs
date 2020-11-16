@@ -30,6 +30,6 @@ public class Factura
         ListaFacturaDetalle.Add(o);
         Total += cantidad * producto.Precio;
         Subtotal = Total * producto.Precio;
-        Impuesto = Total * 0.15;  
+        Impuesto = Total * 0.15;
     }
 }
