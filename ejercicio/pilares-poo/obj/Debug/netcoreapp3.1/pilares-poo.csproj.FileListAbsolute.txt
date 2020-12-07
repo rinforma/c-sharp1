@@ -1,0 +1,13 @@
+C:\L2\c-sharp1\ejercicio\pilares-poo\bin\Debug\netcoreapp3.1\pilares-poo.exe
+C:\L2\c-sharp1\ejercicio\pilares-poo\bin\Debug\netcoreapp3.1\pilares-poo.deps.json
+C:\L2\c-sharp1\ejercicio\pilares-poo\bin\Debug\netcoreapp3.1\pilares-poo.runtimeconfig.json
+C:\L2\c-sharp1\ejercicio\pilares-poo\bin\Debug\netcoreapp3.1\pilares-poo.runtimeconfig.dev.json
+C:\L2\c-sharp1\ejercicio\pilares-poo\bin\Debug\netcoreapp3.1\pilares-poo.dll
+C:\L2\c-sharp1\ejercicio\pilares-poo\bin\Debug\netcoreapp3.1\pilares-poo.pdb
+C:\L2\c-sharp1\ejercicio\pilares-poo\obj\Debug\netcoreapp3.1\pilares-poo.csprojAssemblyReference.cache
+C:\L2\c-sharp1\ejercicio\pilares-poo\obj\Debug\netcoreapp3.1\pilares-poo.AssemblyInfoInputs.cache
+C:\L2\c-sharp1\ejercicio\pilares-poo\obj\Debug\netcoreapp3.1\pilares-poo.AssemblyInfo.cs
+C:\L2\c-sharp1\ejercicio\pilares-poo\obj\Debug\netcoreapp3.1\pilares-poo.csproj.CoreCompileInputs.cache
+C:\L2\c-sharp1\ejercicio\pilares-poo\obj\Debug\netcoreapp3.1\pilares-poo.dll
+C:\L2\c-sharp1\ejercicio\pilares-poo\obj\Debug\netcoreapp3.1\pilares-poo.pdb
+C:\L2\c-sharp1\ejercicio\pilares-poo\obj\Debug\netcoreapp3.1\pilares-poo.genruntimeconfig.cache
