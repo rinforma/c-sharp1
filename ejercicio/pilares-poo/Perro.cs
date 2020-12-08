@@ -17,7 +17,7 @@ public class Perro:Mamifero // herencia
 
     public void Tamaño()
         {
-            DescribirTamaño; 
+            DescribirTamaño(); 
             
         }
     private void DescribirTamaño()// encapsulamiento

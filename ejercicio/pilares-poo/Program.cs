@@ -27,6 +27,14 @@ namespace pilares_poo
             g.Caminando();
             g.Miauya();
 
+            Mono m = new  Mono();
+            m.Nombre = "kinkom";
+            m.Silvestre = true;
+            m.Patas = 4;
+        
+           Console.WriteLine(m.Nombre);
+           Console.WriteLine(m.Patas);
+           Console.WriteLine(m.Silvestre);
         }
     }
 }
