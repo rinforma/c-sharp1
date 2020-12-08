@@ -18,6 +18,7 @@ namespace pilares_poo
             Console.WriteLine(p.Nombre);
             Console.WriteLine(p.Patas);
             Console.WriteLine(p.EsDomestico);
+            Console.ReadLine();
 
             Gato g = new Gato();
             g.Nombre = "Leon";
@@ -26,15 +27,40 @@ namespace pilares_poo
             g.Comer();
             g.Caminando();
             g.Miauya();
+            Console.ReadLine();
 
             Mono m = new  Mono();
             m.Nombre = "kinkom";
             m.Silvestre = true;
             m.Patas = 4;
+            m.colgar();
         
            Console.WriteLine(m.Nombre);
            Console.WriteLine(m.Patas);
            Console.WriteLine(m.Silvestre);
+           
+            ave v= new ave();
+            v.Nombre = "colibris";
+            v.volar();
+            v.cantar();
+            Console.ReadLine();
+
+            Aguila ag = new Aguila();
+            ag.Nombre = "Guacamaya";
+            ag.Comer();
+            ag.cantar();
+            Console.WriteLine(ag.Nombre);
+
+            Peces pe = new Peces();
+            pe.Nombre = "Memo";
+            pe.nadar();
+            pe.Comer();
+
+            Pez e = new Pez();
+            e.Nombre = "guili";
+            e.nadar();
+            e.Comer();
+            
         }
     }
 }
